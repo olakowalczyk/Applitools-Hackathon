@@ -1,5 +1,7 @@
 # Applitools UltraFastGrid
-## Automation tests for AppliFashion
+## Cross-browser and cross-device Automation tests for AppliFashion
+### Traditional approach using Cypress
+### Moder apprach using Appitools Visual AI
 
 Those tests are made in Traditional and Modern way (using Applitools). 
 “Traditional approach”, means without using Applitools Visual AI.

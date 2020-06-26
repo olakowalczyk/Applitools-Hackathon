@@ -1,0 +1,13 @@
+{
+  "projectId": "xmhbpt",
+  "baseUrl": "https://demo.applitools.com",
+  "video": false,
+  "firefoxGcInterval": {
+    "runMode": null,
+    "openMode": null
+  },
+  "env": {
+    "app": "/gridHackathonV1.html"
+  }
+  
+}

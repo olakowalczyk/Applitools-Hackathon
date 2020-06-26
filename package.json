@@ -1,0 +1,24 @@
+{
+  "name": "applitools-hackathon",
+  "version": "1.0.0",
+  "description": "Applitools Hackathon 2020",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --spec cypress/integration/TraditionalTestsV1/*",
+    "test:edge": "cypress run --browser edge --spec cypress/integration/TraditionalTestsV1/*",
+    "test:firefox": "cypress run --browser firefox --spec cypress/integration/TraditionalTestsV1/*",
+    "test:chrome:v2": "cypress run --browser chrome --spec cypress/integration/TraditionalTestsV2/* --env app=/gridHackathonV2.html",
+    "test:edge:v2": "cypress run --browser edge --spec cypress/integration/TraditionalTestsV2/* --env app=/gridHackathonV2.html",
+    "test:firefox:v2": "cypress run --browser firefox --spec cypress/integration/TraditionalTestsV2/* --env app=/gridHackathonV2.html",
+    "test:modern": "cypress run --spec cypress/integration/ModernTestsV1/*",
+    "test:modern:v2": "cypress run --spec cypress/integration/ModernTestsV2/* --env app=/gridHackathonV2.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.12.0",
+    "cypress": "^4.9.0"
+  }
+}

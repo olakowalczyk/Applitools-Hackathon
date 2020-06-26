@@ -27,7 +27,8 @@ Get clone from this repo
 Open cmd
 Run commands:
 ```
-<cd "the_repo_folder_path">```
+<cd "the_repo_folder_path">
+```
 and then
 ```
 npm ci

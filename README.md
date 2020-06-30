@@ -1,8 +1,8 @@
 # Applitools UltraFastGrid
 ## Cross-browser and cross-device Automation tests for AppliFashion
-### Traditional approach using Cypress
-### Moder apprach using Appitools Visual AI
-
+##### * Traditional approach using Cypress
+##### * Moder apprach using Appitools Visual AI
+***
 Those tests are made in Traditional and Modern way (using Applitools). 
 “Traditional approach”, means without using Applitools Visual AI.
 The tests are made for (3) main tasks across seven (7) different combinations of browsers and screen resolutions (viewports):
@@ -24,8 +24,6 @@ Tests for ModernTestsV1, ModernTestsV2, TraditionalTestsV1, TraditionalTestV2 ar
 Results form Traditional approach are available in:
 - Traditional-V1-TestResults.txt for V1 Application
 - Traditional-V2-TestResults.txt for V2 Application
-
-
 
 ### Prerequisites
 In order to run these tests:

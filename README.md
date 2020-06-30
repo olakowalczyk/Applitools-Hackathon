@@ -14,22 +14,30 @@ on (2) versions of the app:
 -  bug-free [1st version of the app (V1)](https://demo.applitools.com/gridHackathonV1.html "1st version of the app (V1)")
 -  full of bugs [2nd version of the app (V2)](https://demo.applitools.com/gridHackathonV2.html "2nd version of the app (V2)")
 
+Tested viewports and browsers combinations:
+* laptop: [1200, 700] + Chrome, Edge, Firefix
+* tablet: [768, 700] + Chrome, Edge, Firefox
+* mobile: [500, 700] + Chrome (mobile simulation)
+
 Tests for ModernTestsV1, ModernTestsV2, TraditionalTestsV1, TraditionalTestV2 are in ```<../cypress/integration>```
 
 Results form Traditional approach are available in:
 - Traditional-V1-TestResults.txt for V1 Application
 - Traditional-V2-TestResults.txt for V2 Application
 
+
+
 ### Prerequisites
 In order to run these tests:
-  - **node.js**, **npm** and **cypress** are needed
+  - **node.js**, **npm** and **cypress**
+  - **Chrome**, **Edge** and **Firefix** browsers are needed
 
 ### Run project
 Get clone from this repo
 Open cmd
 Run commands:
 ```
-<cd "the_repo_folder_path">
+cd <"the_repo_folder_path">
 ```
 and then
 ```
@@ -39,7 +47,7 @@ npm ci
 ### Run tests
 There are some predefined scripts to run these tests
 
-**FIREFOX ISSUE**: There is a Firefox issue when run cyrpess script for Firefox in Traditional approach, so I have ran them one-by-one interacively with cypress (cypress interacitve mode available after running command ```cypress open```) to grab the results
+:heavy_exclamation_mark: **FIREFOX ISSUE**: There is a Firefox issue when run cypress script for Firefox in Traditional approach, so I have ran them one-by-one interacively with cypress (cypress interacitve mode available after running command ```cypress open```) to grab the results
 
 * ```npm run test:chrome``` - runs test on Chrome in traditional way on V1 of the App
 * ```npm run test:edge``` - runs test on Edge in traditional way on V1 of the App

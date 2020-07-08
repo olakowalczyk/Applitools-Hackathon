@@ -45,7 +45,7 @@ npm ci
 ### Run tests
 There are some predefined scripts to run these tests
 
-:heavy_exclamation_mark: **FIREFOX ISSUE**: There is a Firefox issue when run cypress script for Firefox in Traditional approach, so I have ran them one-by-one interacively with cypress (cypress interacitve mode available after running command ```cypress open```) to grab the results
+:heavy_exclamation_mark: **CYPRESS FIREFOX ISSUE**: There is a Firefox issue when run cypress script for Firefox in Traditional approach, so I have ran them one-by-one interacively with cypress (cypress interacitve mode available after running command ```cypress open```) to grab the results
 
 * ```npm run test:chrome``` - runs test on Chrome in traditional way on V1 of the App
 * ```npm run test:edge``` - runs test on Edge in traditional way on V1 of the App

@@ -43,7 +43,7 @@ and then
 ```
 npm ci
 ```
-Set the APPLITOOLS_API_KEY variable with your API Key ([Help here](https://help.applitools.com/hc/en-us/articles/360006914732-The-runner-API-key)). It is also possible to specify the API key in the ```applitools.config.js``` file. The property name is ```apiKey```.
+For Modern approach: Set the APPLITOOLS_API_KEY variable with your API Key ([Help here](https://help.applitools.com/hc/en-us/articles/360006914732-The-runner-API-key)). It is also possible to specify the API key in the ```applitools.config.js``` file. The property name is ```apiKey```.
 
 ### Run tests
 There are some predefined scripts to run these tests

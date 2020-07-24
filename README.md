@@ -25,6 +25,8 @@ Results form Traditional approach are available in:
 - Traditional-V1-TestResults.txt for V1 Application
 - Traditional-V2-TestResults.txt for V2 Application
 
+Results form Modern approach are available on [Applitools Dashboard](https://eyes.applitools.com/app/test-results/00000251809124741691)
+
 ### Prerequisites
 In order to run these tests:
   - **node.js**, **npm** and **cypress**

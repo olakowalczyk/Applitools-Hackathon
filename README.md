@@ -1,4 +1,5 @@
-# Applitools UltraFastGrid - the Silver Winner solution
+# Applitools UltraFastGrid 
+#### the Silver Winner solution
 
 ## Cross-browser and cross-device Automation tests for AppliFashion
 * Traditional approach using Cypress
